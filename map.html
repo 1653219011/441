@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/xiaola.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <!-- start slider -->
 	<link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
@@ -109,7 +110,23 @@
 								<li><a href="course.html">course</a></li>
 								<li><a href="about.html">about us</a></li>
 								<li class="active"><a href="portofolioitem.html">map</a></li>
-								<li><a href="contact.html">contact us</a></li>
+								<div class="dropdown">
+									<li><a href="contact.html">contact us</a></li>
+									<div class="dropdown-content">
+										<a href="index.html">home</a>
+										<a href="course.html">course</a>
+										<a href="about.html">about</a>
+										<a href="map.html">map</a>
+										<a href="contact.html">contact us</a>
+									</div>
+								</div>
+								<form>
+									<div class="search">
+										<input type="search" id="mySearch" name="q" placeholder="search for..." required />
+										<button>search</button>
+										<span class="validity"></span>
+									</div>
+								</form>
 							<div class="clear"> </div>
 						    </ul>
 							<script type="text/javascript" src="js/responsive-nav.js"></script>
@@ -125,10 +142,13 @@
 <div class="copy-right">
 	<div class="wrap">
 		<div class="copy-right-left">
-			<p>NB University welcomes you</p>
+			<p>copyright&NB University welcomes you [jim]</p>
 		</div>
 	</div>
 </div>
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
 <div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
